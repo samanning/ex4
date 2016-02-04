@@ -1,0 +1,178 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*== typography & color ==*/
+
+body {
+    background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+footer {
+    font-size: 12px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+/*== position and padding ==*/
+
+header {
+    text-align: center;
+    width: 700px;
+    margin-top: 30px;
+    margin-left: 250px;
+}
+
+.margBottom {
+    margin-bottom: 20px;
+}
+
+.margBottomBig {
+    margin-bottom: 50px;
+}
+
+.margLeft {
+    margin-left: 200px;
+}
+
+.margRight {
+    margin-right: 200px;
+}
+
+#valid {
+    float: right;
+}
+
+footer {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#burts {
+    float: right;
+}
+
+
+/*== extras ==*/
+
+li {
+    list-style-type: none;
+    display: inline;
+}
+
+img {
+    opacity: .5;
+}
+
+
+/*== tool tip ==*/
+.tip {
+    position: absolute;
+    background-image: url("media/bubbleL.png");
+    color: #FFFFFF;
+    font-size: 12px;
+    width: 188px;
+    height: 164px;
+    padding-top: 50px;
+    padding-left: 27px;
+overflow: hidden;
+}
+
+.tipRight {
+    background-image: url("media/bubble.png");
+    width: 163px;
+    height: 175px;
+}
+
+.tipBottomLeft {
+    background-image: url("media/bubbleBottom.png");
+    width: 184px;
+    height: 164px;
+}
+
+.tipBottomRight {
+    background-image: url("media/bubbleBottomRight.png");
+    width: 185px;
+    height: 164px;
+}
+
+.agendaTip{
+    margin-left: 20px;
+    margin-top: 100px;
+    padding-right:45px;
+}
+
+.penTip {
+    padding-right: 45px;
+    margin-left: 20px;
+}
+
+.keysTip {
+    margin-left: 135px;
+}
+
+.burtsTip{
+    margin-left: 109px;
+    margin-bottom: 90px; 
+}
+
+.phoneTip {
+    margin-left: 272px;
+   padding-left: 50px;
+}
+
+/*== grid ==*/
+
+* {
+    box-sizing: border-box;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.one-half {
+    width: 50%;
+}
+
+.one-third {
+    width: 33%;
+}
+
+.column {
+    float: left;
+}
+
+.container {
+    width: 955px;
+    margin: auto;
+}
+
+
+/*== visibility ==*/
+
+h6 {
+    visibility: hidden;
+}
+
+/*== psuedo classes ==*/
+footer a:hover{
+    color: #CEE879;
+}
