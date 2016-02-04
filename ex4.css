@@ -43,7 +43,7 @@ header {
 }
 
 .margBottomBig {
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 .margLeft {
@@ -61,12 +61,40 @@ header {
 footer {
     margin-left: 20px;
     margin-right: 20px;
+    margin-top: 30px;
 }
 
 #burts {
     float: right;
 }
 
+.answer {
+    margin-top: 10px;
+    visibility: hidden;
+}
+
+#answerPen {
+    margin-left: 170px;
+}
+
+#answerAgenda {
+    margin-left: 240px;
+    margin-top: -70px;
+}
+
+#answerKeys {
+    margin-left: 40px;
+}
+
+#answerBurts {
+    margin-top:50px;
+    margin-left: 280px;
+}
+
+#answerPhone {
+    margin-left: 75px;
+    margin-top: -70px;
+}
 
 /*== extras ==*/
 
